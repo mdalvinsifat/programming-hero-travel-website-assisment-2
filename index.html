@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ParallaX Trvels</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./Images/icon.png" type="image/x-icon">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="./styles/main-styles.css">
+    <link rel="stylesheet" href="./styles/mobile-styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mulish:wght@400;800&display=swap"
+        rel="stylesheet">
+        <script src="https://kit.fontawesome.com/4e3b307912.js" crossorigin="anonymous"></script>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;800&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- header section -->
+    <header>
+        <div class="logo-name" font25>
+            <img src="./Images/icon.png" alt="ParallaX Trvels logo">
+            <h1>ParallaX <span class="txt-prim">Trvels</span></h1>
+        </div>
+
+        <!-- hamburger icon selector -->
+        <input type="checkbox" id="menu-toggle" />
+        <label for="menu-toggle" class="hamburge">
+            <div></div>
+            <div></div>
+            <div></div>
+        </label>
+
+        <!-- nav bar -->
+        <div class="nav-bar">
+            <ul class="font125 menu">
+                <li><a href="#"><span class="txt-prim">Home</span></a></li>
+                <li><a href="#">Packages</a></li>
+                <li><a href="#">Testimonial</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- explore section -->
+    <section class="explore">
+        <div class="explore-container">
+            <h1>Explore Your Travel Destinations</h1>
+            <p>Where will your next adventure take you? Dive into the unknown and ignite your wanderlust with our
+                curated collection of diverse destinations. From sun-kissed beaches to snow-capped peaks, bustling
+                metropolises to serene countrysides, the world awaits your footprints. Let's explore!</p>
+                <!-- search option and search bar -->
+            <div class="search-bar">
+                <input type="text" class="field" placeholder="Where to">
+                <div class="input-contant">
+                    <input type="text" class="field" placeholder="When">
+                    <!-- dropdown icon -->
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path d="M19.5 8.25L12 15.75L4.5 8.25" stroke="#131318" stroke-opacity="0.7" stroke-width="1.5"
+                            stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </div>
+                <div class="input-contant">
+                    <input type="text" class="field" placeholder="Select Type">
+                    <!-- dropdown icon -->
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path d="M19.5 8.25L12 15.75L4.5 8.25" stroke="#131318" stroke-opacity="0.7" stroke-width="1.5"
+                            stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </div>
+                <button class="btn btn-primary">
+                    <!-- search icon -->
+                    <img src="./Images/search.svg" alt="">
+                    Find now
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- popular tours -->
+    <section class="travels">
+        <div class="tours-info">
+            <h2 class="font25">Our Popular Tours</h2>
+            <div class="text-light-grey travel-bodys">
+                <p>Craving experiences that linger long after the souvenirs gather dust? Look no further! We've curated a selection of our most sought-after journeys, designed to ignite your wanderlust and leave you with memories etched in gold. Buckle up, we're whisking you away!</p>
+                <ul>
+                    <li><b>Trekking the Inca Trail to Machu Picchu:</b> Feel the ancient energy hum beneath your boots as you conquer the legendary Inca Trail. Witness jaw-dropping vistas, explore hidden ruins, and finally, stand in awe before the majestic Machu Picchu, bathed in the golden light of dawn</li>
+                    <li><b>Sailing the Greek Islands:</b> Hop aboard a traditional schooner and let the Aegean winds dance in your hair. Dive into turquoise coves, sunbathe on pristine beaches, and savor the freshest seafood while island-hopping through paradise. Myth, history, and beauty blend seamlessly on this unforgettable odyssey.</li>
+                    <li><b>Unveiling the Mysteries of Morocco:</b> Delve into the vibrant tapestry of Morocco, where desert dunes meet bustling souks. Ride camels through the Sahara, lose yourself in the labyrinthine alleyways of Fez, and sip sweet mint tea beneath star-studded skies. This adventure will awaken your senses and leave you captivated by the magic of Morocco.</li>
+                </ul>
+                <p>So, where will your compass lead you next? Explore our full range of tours and discover a world of possibilities waiting to be embraced. Let the adventure begin!</p>
+                <button class="btn-primary font125">
+                    Read More
+                </button>
+            </div> 
+        </div>
+        <div class="travel-image">
+            <img src="./Images/Rectangle 4.png" alt="image of mountain">
+        </div>
+    </section>
+    <!-- <section class="destinations">
+        <h2></h2>
+        <p></p>
+        <div class="grid-container">
+            <div class="grid-item"><img src="./Images/Rectangle 5.png" alt=""></div>
+            <div class="grid-item"><img src="./Images/Rectangle 8.png" alt=""></div>
+            <div class="grid-item"><img src="" alt=""></div>
+            <div class="grid-item"><img src="" alt=""></div>
+            <div class="grid-item"><img src="" alt=""></div>
+            <div class="grid-item"><img src="" alt=""></div>
+            <div class="grid-item"><img src="" alt=""></div>
+        </div>
+    </section> -->
+
+    <!-- why choose us section -->
+    <section class="Choice">
+        <div class="body-txt">
+            <h2 class="font25">Why Choose us</h2>
+            <p class="text-light-grey">We craft immersive journeys that resonate, not itineraries that replicate. Dive deeper, connect authentically, and return transformed. Choose us, and let's make travel a soul-stirring adventure.</p>
+        </div>
+        <div class="cards-2">
+            <div class="cards c1">
+                <img src="./Images/hotel 1.svg" alt="">
+                <h3 class="font15">Hotels with Soul</h3>
+                <p class="text-light-grey">We handpick stunning stays that go beyond star ratings. Expect breathtaking views, hidden gems, and experiences that whisper the story of your destination.</p>
+            </div>
+            <div class="cards c2">
+                <img src="./Images/map 1.svg" alt="">
+                <h3 class="font15">Unforgettable Service</h3>
+                <p class="text-light-grey">From warm smiles to seamless logistics, our team becomes your travel family. We anticipate your needs, exceed your expectations, and ensure every moment is pure magic.
+                </p>
+            </div>
+        </div>
+        <div class="cards c3">
+            <img src="./Images/price-tag 1.svg" alt="">
+            <h3 class="font15">Guaranteed Savings</h3>
+            <p class="text-light-grey">Relax, wanderlust warrior! We champion your budget. Secure the best deals with our price guarantee, leaving you with more to spend on souvenirs and local treasures.</p>
+        </div>
+    </section>
+
+    <!-- lettar section -->
+    <div class="lettar">
+        <div class="subscription">
+            <h2 class="font15">lettar</h2>
+            <p class="text-light-grey">Get your daily dose of travel news & tips. Sign up today!</p>
+            <hr>
+            <input type="text" class="field" placeholder="Enter your name">
+            <input type="email" class="field" placeholder="Enter your email">
+            <button class="btn btn-primary font125">
+                Subscribe
+            </button>
+        </div>
+        <div class="images">
+            <div class="product-sale">
+                <h4>
+                    ParallaXTrvels.com
+                </h4>
+                <p>
+                    Save up to 70%
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+
+    
+    <!-- footer area starts here -->
+    <footer id="footer">
+        <div class="footer-container">
+            <div class="footer-logo">
+                <img src="./images/Group 40071 (2).png" alt="Logo">
+                <p class="footer-logo-text">ParallaX <span class="colored-text"> Trvels</span> </p>
+            </div>
+            <p class="footer-des text-primary">
+                Explore captivating destinations, travel tips, and cultural experiences on our vibrant travel blog. Embark on your next adventure with us!
+            </p>
+            <div class="social-links">
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-github"></i>
+            </div>
+            <div class="border-line-horizantal">
+
+            </div>
+           <div class="copy-right">
+               <p>&copy; </p>
+            <p>2017, All Rights Reserved.</p>
+           </div>
+        </div>
+    </footer>
+    <!-- footer area ends here -->
+
+
+
+</body>
+
+</html>

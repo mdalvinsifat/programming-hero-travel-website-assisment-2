@@ -1,0 +1,142 @@
+@media screen and (max-width: 600px) {
+    :root{
+        font-size: 80%;
+    }
+    body{
+        margin: 0rem 1.25rem;
+    }
+
+    .nav-bar {
+        display: none;
+    }
+
+    .logo-name img{
+        max-width: 3rem;
+    }
+
+    .hamburge {
+        display: flex;
+        
+    }
+
+    #menu-toggle:checked ~ .nav-bar,
+    #menu-toggle:checked ~ .nav-bar ul,
+    .search-bar,
+    .travels,
+    .cards-2,
+    .lettar{
+        flex-direction: column;
+    }
+
+    #menu-toggle:checked ~ .nav-bar {
+        display: flex;
+        flex-direction: column;     
+        position: absolute;
+        top: 60px; 
+        width: 100%;
+        background: rgba(255, 255, 255, 0.75);
+        border-radius: 10px;
+    }
+
+    #menu-toggle:checked ~ .nav-bar ul {
+        margin-top: 3rem;
+        gap: .25rem;
+    }
+
+    #menu-toggle:checked ~ .nav-bar ul li {
+        text-align: center; 
+        width: 100%;
+        padding: 10px 0; 
+    }
+
+    .explore{
+        max-width: 100%;
+        height: fit-content;
+    }
+
+    .explore-container{
+        padding-top: 2rem;
+    }
+
+    .explore-container h1{
+        font-size: 1.75rem;
+        width: 90%;
+    }
+
+    .explore-container p{
+        margin-top: 0.5rem;
+        width: 90%;
+        font-size: 0.9rem;
+    }
+
+    .search-bar {
+        margin-bottom: 2rem;
+        gap: 1rem;
+        width: 100%;
+    }
+
+    .search-bar > *, .search-bar > input[type="text"]{ 
+        width: 100%;
+    }
+
+    .travels{
+        gap: 1.5rem;
+        width: 100%;
+    }
+
+    .travel-image > img{
+        max-width: 100%;
+    }
+
+    .Choice{
+        margin-top: 1.5rem;
+        max-width: 100%;
+    }
+
+    .body-txt, .body-txt > p{
+        margin: 0;
+        max-width: 100%;
+    }
+
+    .cards-2{
+        margin-top: 1rem;
+        gap: 1rem;
+    }
+
+    .cards{
+        width: 100%;
+        height: fit-content;
+    }
+
+    .cards p{
+        width: 100%;
+    }
+
+    .c3{
+        margin-top: 1rem;
+    }
+
+    .lettar{
+        margin-top: 1rem;
+        gap: 1rem;
+        width: 100%;
+    }
+
+    .subscription{
+        width: 100%;
+        padding: 1.5rem;
+        height: fit-content;
+    }
+
+    .subscription p{
+        margin-top: 0.5rem;
+    }
+
+    .subscription hr{
+        margin: 1rem 0;
+    }
+
+    .lettar > .images{
+        width: 100%;
+    }
+}
